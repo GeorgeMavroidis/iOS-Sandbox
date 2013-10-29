@@ -7,8 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import <QuartzCore/QuartzCore.h>
 @interface sandboxView : UIView
-
+{
+    CALayer *boxLayer;
+}
 
 @end
