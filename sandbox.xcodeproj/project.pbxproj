@@ -19,7 +19,7 @@
 		5E27E28118200AED0089C178 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E27E26918200AED0089C178 /* UIKit.framework */; };
 		5E27E28918200AED0089C178 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5E27E28718200AED0089C178 /* InfoPlist.strings */; };
 		5E27E28B18200AED0089C178 /* sandboxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E27E28A18200AED0089C178 /* sandboxTests.m */; };
-		5E27E29518200E1D0089C178 /* sandboxViewController in Resources */ = {isa = PBXBuildFile; fileRef = 5E27E29418200E1D0089C178 /* sandboxViewController */; };
+		5E27E29518200E1D0089C178 /* sandboxViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E27E29418200E1D0089C178 /* sandboxViewController.xib */; };
 		5E27E29818200E670089C178 /* sandboxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E27E29718200E670089C178 /* sandboxViewController.m */; };
 		5E27E29B182016510089C178 /* sandboxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E27E29A182016510089C178 /* sandboxView.m */; };
 /* End PBXBuildFile section */
@@ -51,7 +51,7 @@
 		5E27E28618200AED0089C178 /* sandboxTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "sandboxTests-Info.plist"; sourceTree = "<group>"; };
 		5E27E28818200AED0089C178 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5E27E28A18200AED0089C178 /* sandboxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sandboxTests.m; sourceTree = "<group>"; };
-		5E27E29418200E1D0089C178 /* sandboxViewController */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = sandboxViewController; sourceTree = "<group>"; };
+		5E27E29418200E1D0089C178 /* sandboxViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = sandboxViewController.xib; sourceTree = "<group>"; };
 		5E27E29618200E670089C178 /* sandboxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sandboxViewController.h; sourceTree = "<group>"; };
 		5E27E29718200E670089C178 /* sandboxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sandboxViewController.m; sourceTree = "<group>"; };
 		5E27E299182016510089C178 /* sandboxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sandboxView.h; sourceTree = "<group>"; };
@@ -121,7 +121,7 @@
 				5E27E299182016510089C178 /* sandboxView.h */,
 				5E27E29A182016510089C178 /* sandboxView.m */,
 				5E27E29718200E670089C178 /* sandboxViewController.m */,
-				5E27E29418200E1D0089C178 /* sandboxViewController */,
+				5E27E29418200E1D0089C178 /* sandboxViewController.xib */,
 				5E27E27718200AED0089C178 /* Images.xcassets */,
 				5E27E26C18200AED0089C178 /* Supporting Files */,
 			);
@@ -233,7 +233,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E27E29518200E1D0089C178 /* sandboxViewController in Resources */,
+				5E27E29518200E1D0089C178 /* sandboxViewController.xib in Resources */,
 				5E27E27018200AED0089C178 /* InfoPlist.strings in Resources */,
 				5E27E27818200AED0089C178 /* Images.xcassets in Resources */,
 			);
