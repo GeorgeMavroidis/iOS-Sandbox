@@ -13,4 +13,6 @@
     CALayer *boxLayer;
 }
 
+@property (nonatomic, weak) UIColor *color;
+
 @end
