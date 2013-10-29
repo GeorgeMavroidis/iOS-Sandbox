@@ -7,13 +7,37 @@
 //
 
 #import "sandboxAppDelegate.h"
+#import "sandboxViewController.h"
+
 
 @implementation sandboxAppDelegate
+
+@synthesize window = _window;
+
+- (UIView *)viewForZoomingInScrollView:(UIScrollView *)scrollView
+{
+    return view;
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    CGRect screenRect = [[self window] bounds];
+    // Create the UIScrollView to have the size of the window, matching its size
+    UIScrollView *scrollView = [[UIScrollView alloc] initWithFrame:screenRect];
+    [scrollView setMaximumZoomScale:5];
+    [scrollView setDelegate:self];
+    [[self window] addSubview:scrollView];
+    
+    // Create the HypnosisView with a frame that is twice the size of the screen
+    CGRect bigRect = screenRect;
+    
+    view = [[sandboxView alloc] initWithFrame:screenRect];
+    // Add the HypnosisView as a subview of the scrollView instead of the window
+    [scrollView addSubview:view];
+
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

@@ -7,8 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface sandboxAppDelegate : UIResponder <UIApplicationDelegate>
+#import "sandboxView.h"
+@interface sandboxAppDelegate : UIResponder{
+    sandboxView *view;
+}
 
 @property (strong, nonatomic) UIWindow *window;
 
