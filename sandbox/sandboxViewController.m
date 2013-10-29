@@ -11,4 +11,10 @@
 
 @implementation sandboxViewController
 
+- (IBAction)changeLabel:(id)sender {
+    NSArray *myArray = [NSArray arrayWithObjects:@"George", @"Mavroidis",nil];
+    NSUInteger randomIndex = arc4random() % [myArray count];
+    [textLabel setText:[myArray objectAtIndex:randomIndex]];
+    
+}
 @end

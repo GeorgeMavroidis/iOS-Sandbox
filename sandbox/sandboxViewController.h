@@ -10,8 +10,10 @@
 
 @interface sandboxViewController : UIViewController{
     
+    __weak IBOutlet UILabel *textLabel;
 }
 
+- (IBAction)changeLabel:(id)sender;
 
 
 @end
