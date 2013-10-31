@@ -22,6 +22,17 @@
 		5E27E29518200E1D0089C178 /* sandboxViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E27E29418200E1D0089C178 /* sandboxViewController.xib */; };
 		5E27E29818200E670089C178 /* sandboxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E27E29718200E670089C178 /* sandboxViewController.m */; };
 		5E27E29B182016510089C178 /* sandboxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E27E29A182016510089C178 /* sandboxView.m */; };
+		5E27E29E1821F9420089C178 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E27E29D1821F9420089C178 /* MyViewController.m */; };
+		5E27E2A11821F9B20089C178 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E27E29F1821F9B20089C178 /* RootViewController.m */; };
+		5E27E2A41821FAAC0089C178 /* PhoneContent.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E27E2A21821FAAC0089C178 /* PhoneContent.xib */; };
+		5E27E2A51821FAAC0089C178 /* MyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E27E2A31821FAAC0089C178 /* MyView.xib */; };
+		5E27E2AC1821FAE80089C178 /* small_one.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E27E2A61821FAE80089C178 /* small_one.png */; };
+		5E27E2AD1821FAE80089C178 /* small_two.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E27E2A71821FAE80089C178 /* small_two.png */; };
+		5E27E2AE1821FAE80089C178 /* small_three.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E27E2A81821FAE80089C178 /* small_three.png */; };
+		5E27E2AF1821FAE80089C178 /* small_four.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E27E2A91821FAE80089C178 /* small_four.png */; };
+		5E27E2B01821FAE80089C178 /* small_five.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E27E2AA1821FAE80089C178 /* small_five.png */; };
+		5E27E2B11821FAE80089C178 /* small_six.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E27E2AB1821FAE80089C178 /* small_six.png */; };
+		5E27E2B31821FB7D0089C178 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E27E2B21821FB7D0089C178 /* MainWindow.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +67,19 @@
 		5E27E29718200E670089C178 /* sandboxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sandboxViewController.m; sourceTree = "<group>"; };
 		5E27E299182016510089C178 /* sandboxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sandboxView.h; sourceTree = "<group>"; };
 		5E27E29A182016510089C178 /* sandboxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sandboxView.m; sourceTree = "<group>"; };
+		5E27E29C1821F9420089C178 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		5E27E29D1821F9420089C178 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		5E27E29F1821F9B20089C178 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		5E27E2A01821F9B20089C178 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		5E27E2A21821FAAC0089C178 /* PhoneContent.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhoneContent.xib; sourceTree = "<group>"; };
+		5E27E2A31821FAAC0089C178 /* MyView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyView.xib; sourceTree = "<group>"; };
+		5E27E2A61821FAE80089C178 /* small_one.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = small_one.png; sourceTree = "<group>"; };
+		5E27E2A71821FAE80089C178 /* small_two.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = small_two.png; sourceTree = "<group>"; };
+		5E27E2A81821FAE80089C178 /* small_three.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = small_three.png; sourceTree = "<group>"; };
+		5E27E2A91821FAE80089C178 /* small_four.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = small_four.png; sourceTree = "<group>"; };
+		5E27E2AA1821FAE80089C178 /* small_five.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = small_five.png; sourceTree = "<group>"; };
+		5E27E2AB1821FAE80089C178 /* small_six.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = small_six.png; sourceTree = "<group>"; };
+		5E27E2B21821FB7D0089C178 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,9 +142,9 @@
 				5E27E27418200AED0089C178 /* sandboxAppDelegate.h */,
 				5E27E27518200AED0089C178 /* sandboxAppDelegate.m */,
 				5E27E29618200E670089C178 /* sandboxViewController.h */,
+				5E27E29718200E670089C178 /* sandboxViewController.m */,
 				5E27E299182016510089C178 /* sandboxView.h */,
 				5E27E29A182016510089C178 /* sandboxView.m */,
-				5E27E29718200E670089C178 /* sandboxViewController.m */,
 				5E27E29418200E1D0089C178 /* sandboxViewController.xib */,
 				5E27E27718200AED0089C178 /* Images.xcassets */,
 				5E27E26C18200AED0089C178 /* Supporting Files */,
@@ -131,6 +155,19 @@
 		5E27E26C18200AED0089C178 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5E27E2A61821FAE80089C178 /* small_one.png */,
+				5E27E2A71821FAE80089C178 /* small_two.png */,
+				5E27E2A81821FAE80089C178 /* small_three.png */,
+				5E27E2A91821FAE80089C178 /* small_four.png */,
+				5E27E2AA1821FAE80089C178 /* small_five.png */,
+				5E27E2AB1821FAE80089C178 /* small_six.png */,
+				5E27E2A21821FAAC0089C178 /* PhoneContent.xib */,
+				5E27E2B21821FB7D0089C178 /* MainWindow.xib */,
+				5E27E2A31821FAAC0089C178 /* MyView.xib */,
+				5E27E29F1821F9B20089C178 /* RootViewController.m */,
+				5E27E2A01821F9B20089C178 /* RootViewController.h */,
+				5E27E29C1821F9420089C178 /* MyViewController.h */,
+				5E27E29D1821F9420089C178 /* MyViewController.m */,
 				5E27E26D18200AED0089C178 /* sandbox-Info.plist */,
 				5E27E26E18200AED0089C178 /* InfoPlist.strings */,
 				5E27E27118200AED0089C178 /* main.m */,
@@ -235,7 +272,16 @@
 			files = (
 				5E27E29518200E1D0089C178 /* sandboxViewController.xib in Resources */,
 				5E27E27018200AED0089C178 /* InfoPlist.strings in Resources */,
+				5E27E2AE1821FAE80089C178 /* small_three.png in Resources */,
+				5E27E2A41821FAAC0089C178 /* PhoneContent.xib in Resources */,
+				5E27E2A51821FAAC0089C178 /* MyView.xib in Resources */,
+				5E27E2AF1821FAE80089C178 /* small_four.png in Resources */,
+				5E27E2AC1821FAE80089C178 /* small_one.png in Resources */,
+				5E27E2B11821FAE80089C178 /* small_six.png in Resources */,
+				5E27E2B31821FB7D0089C178 /* MainWindow.xib in Resources */,
 				5E27E27818200AED0089C178 /* Images.xcassets in Resources */,
+				5E27E2AD1821FAE80089C178 /* small_two.png in Resources */,
+				5E27E2B01821FAE80089C178 /* small_five.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +302,10 @@
 			files = (
 				5E27E27618200AED0089C178 /* sandboxAppDelegate.m in Sources */,
 				5E27E29818200E670089C178 /* sandboxViewController.m in Sources */,
+				5E27E2A11821F9B20089C178 /* RootViewController.m in Sources */,
 				5E27E29B182016510089C178 /* sandboxView.m in Sources */,
 				5E27E27218200AED0089C178 /* main.m in Sources */,
+				5E27E29E1821F9420089C178 /* MyViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,6 +506,7 @@
 				5E27E29018200AED0089C178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5E27E29118200AED0089C178 /* Build configuration list for PBXNativeTarget "sandboxTests" */ = {
 			isa = XCConfigurationList;
@@ -466,6 +515,7 @@
 				5E27E29318200AED0089C178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

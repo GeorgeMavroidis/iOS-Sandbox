@@ -8,11 +8,15 @@
 
 #import <Foundation/Foundation.h>
 
-@interface sandboxViewController : UIViewController{
+@interface sandboxViewController : UIViewController <UIScrollViewDelegate>{
     
     __weak IBOutlet UILabel *textLabel;
+    
 }
 
 - (IBAction)changeLabel:(id)sender;
+@property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
+@property (weak, nonatomic) IBOutlet UIPageControl *pageControl;
+@property (nonatomic, strong) NSArray *imageArray; //.h
 
 @end

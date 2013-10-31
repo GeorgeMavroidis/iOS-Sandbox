@@ -30,7 +30,7 @@
     
 }
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
-    UITouch *t = [touches anyObject];
+   /* UITouch *t = [touches anyObject];
     CGPoint p = [t locationInView:self];
     [boxLayer setPosition:p];
     
@@ -39,7 +39,7 @@
     CGFloat brightness = ( arc4random() % 128 / 256.0 ) + 0.5;  //  0.5 to 1.0, away from black
     UIColor *col = [UIColor colorWithHue:hue saturation:saturation brightness:brightness alpha:1];
     [self setColor:col];
-    [super setBackgroundColor:[self color]];
+    [super setBackgroundColor:[self color]];*/
 }
 
 @end

@@ -8,6 +8,7 @@
 
 #import "sandboxAppDelegate.h"
 #import "sandboxViewController.h"
+#import "RootViewController.h"
 
 @implementation sandboxAppDelegate
 
@@ -16,17 +17,11 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    sandboxViewController *mvc = [[sandboxViewController alloc]init];
     
-    sandboxViewController *svc = [[sandboxViewController alloc] init];
-    sandboxViewController *svc2 = [[sandboxViewController alloc] init];
-    sandboxViewController *svc3 = [[sandboxViewController alloc] init];
-    
-    UITabBarController *tabBarController = [[UITabBarController alloc]init];
-    NSArray *viewControllers = [NSArray arrayWithObjects:svc, svc2, svc3, nil];
+    [[self window] setRootViewController:mvc];
 
-    [tabBarController setViewControllers:viewControllers];
-    
-    [[self window] setRootViewController:tabBarController];
+
     
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
