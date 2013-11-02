@@ -9,6 +9,9 @@
 #import "sandboxAppDelegate.h"
 #import "sandboxViewController.h"
 #import "RootViewController.h"
+#import "chiefHeaderTableView.h"
+#import "topChiefView.h"
+#import "chiefViewController.h"
 
 @implementation sandboxAppDelegate
 
@@ -16,12 +19,20 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    sandboxViewController *mvc = [[sandboxViewController alloc]init];
     
-    [[self window] setRootViewController:mvc];
-
-
+    // Override point for customization after application launch.
+    //sandboxViewController *mvc = [[sandboxViewController alloc]init];
+    
+    //CGRect  viewRect = CGRectMake(0, 0, 100, 100);
+    //topChiefView *tcv = [[topChiefView alloc] initWithFrame:viewRect];
+    //[[self window]addSubview:tcv];
+    //chiefHeaderTableViewController   *ctvc = [[chiefHeaderTableViewController alloc] init];
+    //[[self window] setRootViewController:ctvc];
+    //UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:ctvc];
+    
+    chiefViewController *cvc = [[chiefViewController alloc]init];
+    [[self window] setRootViewController:cvc];
+    
     
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];

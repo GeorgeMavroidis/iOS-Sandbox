@@ -51,6 +51,8 @@
     }
     //Set the content size of our scrollview according to the total width of our imageView objects.
     scrollView.contentSize = CGSizeMake(scrollView.frame.size.width * [imageArray count], scrollView.frame.size.height);
+    
+    
     //[[self view] addSubview:sv];
 }
 - (void)scrollViewDidScroll:(UIScrollView *)sender

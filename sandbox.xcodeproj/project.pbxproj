@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E24D4661824626900415EB5 /* chiefViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E24D4651824626900415EB5 /* chiefViewController.xib */; };
+		5E24D469182464EB00415EB5 /* chiefViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E24D468182464EB00415EB5 /* chiefViewController.m */; };
 		5E27E26618200AED0089C178 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E27E26518200AED0089C178 /* Foundation.framework */; };
 		5E27E26818200AED0089C178 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E27E26718200AED0089C178 /* CoreGraphics.framework */; };
 		5E27E26A18200AED0089C178 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E27E26918200AED0089C178 /* UIKit.framework */; };
@@ -33,6 +35,15 @@
 		5E27E2B01821FAE80089C178 /* small_five.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E27E2AA1821FAE80089C178 /* small_five.png */; };
 		5E27E2B11821FAE80089C178 /* small_six.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E27E2AB1821FAE80089C178 /* small_six.png */; };
 		5E27E2B31821FB7D0089C178 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E27E2B21821FB7D0089C178 /* MainWindow.xib */; };
+		5EB1F7771822C12100BF85C8 /* chiefHeaderTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EB1F7761822C12100BF85C8 /* chiefHeaderTableCell.xib */; };
+		5EB1F7791822C2E100BF85C8 /* Screen Shot 2013-10-31 at 12.54.35 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EB1F7781822C2E100BF85C8 /* Screen Shot 2013-10-31 at 12.54.35 PM.png */; };
+		5EB1F77C1822C65300BF85C8 /* chiefHeaderTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB1F77B1822C65300BF85C8 /* chiefHeaderTableCell.m */; };
+		5EB1F77F1822C97300BF85C8 /* chiefHeaderTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB1F77E1822C97300BF85C8 /* chiefHeaderTableView.m */; };
+		5EB1F7811822D52200BF85C8 /* sampleUser.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5EB1F7801822D52200BF85C8 /* sampleUser.jpg */; };
+		5EB1F7841822DBB200BF85C8 /* RowingSmall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5EB1F7821822DBB200BF85C8 /* RowingSmall.jpg */; };
+		5EB1F7851822DBB200BF85C8 /* su3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5EB1F7831822DBB200BF85C8 /* su3.jpg */; };
+		5EF9EDAC1822E3C100F427C4 /* topChiefView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EF9EDAB1822E3C100F427C4 /* topChiefView.xib */; };
+		5EF9EDAF1822E4A800F427C4 /* topChiefView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF9EDAE1822E4A800F427C4 /* topChiefView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +57,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5E24D4651824626900415EB5 /* chiefViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = chiefViewController.xib; sourceTree = "<group>"; };
+		5E24D467182464EB00415EB5 /* chiefViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chiefViewController.h; sourceTree = "<group>"; };
+		5E24D468182464EB00415EB5 /* chiefViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = chiefViewController.m; sourceTree = "<group>"; };
 		5E27E26218200AED0089C178 /* sandbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sandbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E27E26518200AED0089C178 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5E27E26718200AED0089C178 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -80,6 +94,18 @@
 		5E27E2AA1821FAE80089C178 /* small_five.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = small_five.png; sourceTree = "<group>"; };
 		5E27E2AB1821FAE80089C178 /* small_six.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = small_six.png; sourceTree = "<group>"; };
 		5E27E2B21821FB7D0089C178 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		5EB1F7761822C12100BF85C8 /* chiefHeaderTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = chiefHeaderTableCell.xib; path = ../chiefHeaderTableCell.xib; sourceTree = "<group>"; };
+		5EB1F7781822C2E100BF85C8 /* Screen Shot 2013-10-31 at 12.54.35 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2013-10-31 at 12.54.35 PM.png"; sourceTree = "<group>"; };
+		5EB1F77A1822C65300BF85C8 /* chiefHeaderTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chiefHeaderTableCell.h; sourceTree = "<group>"; };
+		5EB1F77B1822C65300BF85C8 /* chiefHeaderTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = chiefHeaderTableCell.m; sourceTree = "<group>"; };
+		5EB1F77D1822C97300BF85C8 /* chiefHeaderTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chiefHeaderTableView.h; sourceTree = "<group>"; };
+		5EB1F77E1822C97300BF85C8 /* chiefHeaderTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = chiefHeaderTableView.m; sourceTree = "<group>"; };
+		5EB1F7801822D52200BF85C8 /* sampleUser.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sampleUser.jpg; sourceTree = "<group>"; };
+		5EB1F7821822DBB200BF85C8 /* RowingSmall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RowingSmall.jpg; sourceTree = "<group>"; };
+		5EB1F7831822DBB200BF85C8 /* su3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = su3.jpg; sourceTree = "<group>"; };
+		5EF9EDAB1822E3C100F427C4 /* topChiefView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = topChiefView.xib; sourceTree = "<group>"; };
+		5EF9EDAD1822E4A800F427C4 /* topChiefView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = topChiefView.h; sourceTree = "<group>"; };
+		5EF9EDAE1822E4A800F427C4 /* topChiefView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = topChiefView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,11 +167,22 @@
 			children = (
 				5E27E27418200AED0089C178 /* sandboxAppDelegate.h */,
 				5E27E27518200AED0089C178 /* sandboxAppDelegate.m */,
+				5E24D4651824626900415EB5 /* chiefViewController.xib */,
+				5E24D467182464EB00415EB5 /* chiefViewController.h */,
+				5E24D468182464EB00415EB5 /* chiefViewController.m */,
 				5E27E29618200E670089C178 /* sandboxViewController.h */,
 				5E27E29718200E670089C178 /* sandboxViewController.m */,
 				5E27E299182016510089C178 /* sandboxView.h */,
 				5E27E29A182016510089C178 /* sandboxView.m */,
 				5E27E29418200E1D0089C178 /* sandboxViewController.xib */,
+				5EB1F7761822C12100BF85C8 /* chiefHeaderTableCell.xib */,
+				5EB1F77A1822C65300BF85C8 /* chiefHeaderTableCell.h */,
+				5EB1F77B1822C65300BF85C8 /* chiefHeaderTableCell.m */,
+				5EB1F77D1822C97300BF85C8 /* chiefHeaderTableView.h */,
+				5EB1F77E1822C97300BF85C8 /* chiefHeaderTableView.m */,
+				5EF9EDAB1822E3C100F427C4 /* topChiefView.xib */,
+				5EF9EDAD1822E4A800F427C4 /* topChiefView.h */,
+				5EF9EDAE1822E4A800F427C4 /* topChiefView.m */,
 				5E27E27718200AED0089C178 /* Images.xcassets */,
 				5E27E26C18200AED0089C178 /* Supporting Files */,
 			);
@@ -155,6 +192,10 @@
 		5E27E26C18200AED0089C178 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5EB1F7821822DBB200BF85C8 /* RowingSmall.jpg */,
+				5EB1F7831822DBB200BF85C8 /* su3.jpg */,
+				5EB1F7801822D52200BF85C8 /* sampleUser.jpg */,
+				5EB1F7781822C2E100BF85C8 /* Screen Shot 2013-10-31 at 12.54.35 PM.png */,
 				5E27E2A61821FAE80089C178 /* small_one.png */,
 				5E27E2A71821FAE80089C178 /* small_two.png */,
 				5E27E2A81821FAE80089C178 /* small_three.png */,
@@ -271,15 +312,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E27E29518200E1D0089C178 /* sandboxViewController.xib in Resources */,
+				5EB1F7811822D52200BF85C8 /* sampleUser.jpg in Resources */,
 				5E27E27018200AED0089C178 /* InfoPlist.strings in Resources */,
 				5E27E2AE1821FAE80089C178 /* small_three.png in Resources */,
 				5E27E2A41821FAAC0089C178 /* PhoneContent.xib in Resources */,
+				5EB1F7771822C12100BF85C8 /* chiefHeaderTableCell.xib in Resources */,
+				5EF9EDAC1822E3C100F427C4 /* topChiefView.xib in Resources */,
 				5E27E2A51821FAAC0089C178 /* MyView.xib in Resources */,
 				5E27E2AF1821FAE80089C178 /* small_four.png in Resources */,
+				5EB1F7851822DBB200BF85C8 /* su3.jpg in Resources */,
+				5EB1F7791822C2E100BF85C8 /* Screen Shot 2013-10-31 at 12.54.35 PM.png in Resources */,
 				5E27E2AC1821FAE80089C178 /* small_one.png in Resources */,
 				5E27E2B11821FAE80089C178 /* small_six.png in Resources */,
 				5E27E2B31821FB7D0089C178 /* MainWindow.xib in Resources */,
 				5E27E27818200AED0089C178 /* Images.xcassets in Resources */,
+				5E24D4661824626900415EB5 /* chiefViewController.xib in Resources */,
+				5EB1F7841822DBB200BF85C8 /* RowingSmall.jpg in Resources */,
 				5E27E2AD1821FAE80089C178 /* small_two.png in Resources */,
 				5E27E2B01821FAE80089C178 /* small_five.png in Resources */,
 			);
@@ -304,7 +352,11 @@
 				5E27E29818200E670089C178 /* sandboxViewController.m in Sources */,
 				5E27E2A11821F9B20089C178 /* RootViewController.m in Sources */,
 				5E27E29B182016510089C178 /* sandboxView.m in Sources */,
+				5EB1F77F1822C97300BF85C8 /* chiefHeaderTableView.m in Sources */,
+				5EF9EDAF1822E4A800F427C4 /* topChiefView.m in Sources */,
 				5E27E27218200AED0089C178 /* main.m in Sources */,
+				5EB1F77C1822C65300BF85C8 /* chiefHeaderTableCell.m in Sources */,
+				5E24D469182464EB00415EB5 /* chiefViewController.m in Sources */,
 				5E27E29E1821F9420089C178 /* MyViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
